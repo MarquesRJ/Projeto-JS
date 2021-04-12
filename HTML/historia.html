@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/estiloHistoria.css" />
+</head>
+
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>RPGISTAAA</legend>
+            <div class="campo">
+                <label>Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite o nome..." autocomplete="off"
+                    required /><br />
+            </div><br />
+
+            <div class="campo">
+                <label> Ele ou Ela
+                    <select name="opcoes" id="select">
+                        <option value=""></option>
+                        <option value="o, ">Ele</option>
+                        <option value="a, ">Ela</option>
+                    </select>
+                </label> <br/><br/>
+            </div>
+
+            <div class="campo">
+                <label>Nos conte sua história:</label>
+                <br/></br>
+            </div>
+
+            <div class="campo">
+                <textarea name=historia style="width: 40em" placeholder="Escreva aqui sua historia"></textarea>
+                <br/><br/>
+            </div>
+
+
+            <div class="campo">
+                <label class="checkbox">
+                    <input type="checkbox" name="notificacao" value="1" />  
+                </label>
+                <label>Marque para receber notificações sobre seu post no seu e-mail!</label>
+                 <br/><br/>
+            </div>
+
+            <div class="campo">
+                <label>E-mail:</label>
+                <input type="email" id="email" name="email" required /><br /><br />
+            </div>
+
+            <button class="botao submit" type="submit" name="submit">Eviar </button>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
