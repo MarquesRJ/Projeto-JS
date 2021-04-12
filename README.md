@@ -4,5 +4,8 @@ Repositório criado com a finalidade de por em prática o conhecimento passado p
 
 Os desenvolvedores que estão participando são: Gabriel Henrique Santos Marques e Jonas Silva Carvalho
 
+
+
 Gabriel Henrique Santos Marques (contato.ghsmarques@gmail.com)
+
 Jonas Silva Carvalho (jonasloop1@gmail.com)
