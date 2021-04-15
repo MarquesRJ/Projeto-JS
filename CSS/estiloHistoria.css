@@ -3,6 +3,14 @@ html {
     font-family: 'Open Sans', sans-serif;
     background-color: #5229038e;
 }
+
+* {
+    margin:  auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp', cursive;
+}
+
 body {
     width: 800px;
     margin: 0 auto;
